@@ -33,5 +33,6 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"css.gg": "^2.0.0"
 	}
 }

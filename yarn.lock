@@ -86,10 +86,10 @@
   resolved "https://registry.yarnpkg.com/@sveltejs/adapter-node/-/adapter-node-1.0.0-next.12.tgz#556ec9902f72b8ea095d0bf2d500c2067d160147"
   integrity sha512-DGP3dT5ijsTV0zmLDmZP8wI4RjZlifGGzA0y4HLoWNEKhZJLDjFDJnNcA+O5S9QBxQOVaYUlAY2z19r+skBVjA==
 
-"@sveltejs/adapter-vercel@^1.0.0-next.0":
-  version "1.0.0-next.0"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.0.tgz#5a82c4eab9df72e851b23161ace0f64beaa8cabf"
-  integrity sha512-dQf40/2vrgRfuQ++tIAlvEgjdGUkXJTSjO5syqJd5oH2HDbP3Shi+2AxWpKAqRFGyRbXDe9ej0MK1G2soZP4fQ==
+"@sveltejs/adapter-vercel@next":
+  version "1.0.0-next.10"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.10.tgz#71dbb4e15cb7d0294f1d62e33c41c8fde6b752c8"
+  integrity sha512-hEk1acpk02UsODC9NCF7VtooybXgLlnOX3JIWNkEtqihG6cfyMTOxAl+plT2APknB8i1cUt5FEe/O/r8LGql5Q==
 
 "@sveltejs/kit@next":
   version "1.0.0-next.70"
@@ -628,6 +628,11 @@ css-what@^3.2.1:
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/css-what/-/css-what-3.4.2.tgz#ea7026fcb01777edbde52124e21f327e7ae950e4"
   integrity sha512-ACUm3L0/jiZTqfzRM3Hi9Q8eZqd6IK37mMWPLz9PJxkLWllYeRf+EHUSHYEtFop2Eqytaq1FizFVh7XfBnXCDQ==
+
+css.gg@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/css.gg/-/css.gg-2.0.0.tgz#1ba891092ceac58a2550540171c2d469a86b27b2"
+  integrity sha512-8qO59kSXLbewo7xaUM4eC8328MTdGmb8atpmw6PRzeDGsZrCkAVjJzKeFDIntagl1/aCee+NG1OQtIvWAjgG/A==
 
 cssesc@^3.0.0:
   version "3.0.0"
