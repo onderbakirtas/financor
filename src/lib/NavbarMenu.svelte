@@ -1,0 +1,19 @@
+<nav class="menu">
+  <a class="menu-item" href="#about">About</a>
+  <a class="menu-item" href="#how">How It Works</a>
+  <a class="menu-item" href="#adv">Advantages</a>
+</nav>
+
+<style lang="postcss">
+.menu {
+  @apply flex;
+}
+
+.menu-item {
+  @apply inline-flex mx-2 px-1 py-0 text-purple-200 duration-150;
+}
+
+.menu-item:hover {
+  @apply text-white;
+}
+</style>

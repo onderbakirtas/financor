@@ -6,18 +6,16 @@
 	};
 </script>
 
-<button on:click={increment} class="bg-black font-serif">
+<button on:click={increment}>
 	Clicks: {count}
 </button>
 
 <style style lang="postcss">
 	button {
 		font-size: inherit;
-		/* Tailwind's creator recommends against @apply.
-		This is all just proof that it works in your Svelte style blocks. */
-		@apply py-4 px-8;
-		@apply text-red-500;
-		@apply bg-red-500 bg-opacity-10;
+		@apply py-0 px-2 mx-0 my-0;
+		@apply font-serif text-xl;
+		@apply py-4 px-8 text-green-500 bg-purple-500 bg-opacity-10;
 		@apply rounded-full;
 		@apply border-opacity-100;
 		@apply outline-none;
@@ -27,7 +25,7 @@
 	}
 
 	button:hover {
-		border: 3px solid #ff3e00;
+		@apply bg-yellow-400;
 	}
 
 	button:active {
