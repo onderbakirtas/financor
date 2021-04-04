@@ -40,7 +40,7 @@
 
 <style lang="postcss">
 	.features {
-		@apply container max-w-screen-xl mx-auto py-40;
+		@apply container max-w-screen-xl mx-auto pt-40;
 	}
 
 	.features-header {
@@ -105,8 +105,8 @@
 
 	.feature-icon {
 		@apply inline-flex items-center justify-center;
-		@apply rounded-3xl h-20 w-20;
-		@apply bg-purple-200 text-purple-800;
+		@apply rounded-2xl h-20 w-20;
+		@apply bg-purple-100 text-purple-700;
 		@apply text-4xl font-bold;
 	}
 

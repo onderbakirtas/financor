@@ -63,7 +63,7 @@
 	}
 
 	.advantages {
-		@apply container max-w-screen-lg mx-auto py-20;
+		@apply container max-w-screen-lg mx-auto pt-40;
 	}
 
 	.advantages-header {
