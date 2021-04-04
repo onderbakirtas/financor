@@ -58,12 +58,9 @@
 </section>
 
 <style lang="postcss">
-	:global(:root) {
-		--ggs: 2;
-	}
-
 	.advantages {
 		@apply container max-w-screen-lg mx-auto pt-40;
+		--ggs: 2;
 	}
 
 	.advantages-header {
