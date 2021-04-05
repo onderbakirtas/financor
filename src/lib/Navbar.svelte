@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-
 	import Logo from './Logo.svelte';
 	import NavbarCta from './NavbarCta.svelte';
 	import NavbarMenu from './NavbarMenu.svelte';
