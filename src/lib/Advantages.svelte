@@ -14,7 +14,7 @@
 	</header>
 	<main class="advantages-main">
 		<aside class="advantages-image">
-			<img src="../img/feature-image.png" alt="advantage" />
+			<img src="../img/about.png" alt="advantage" />
 		</aside>
 		<section class="advantages-list">
 			<div class="advantage">
@@ -59,7 +59,7 @@
 
 <style lang="postcss">
 	.advantages {
-		@apply container max-w-screen-lg mx-auto pt-40;
+		@apply container max-w-screen-xl mx-auto pt-40;
 		--ggs: 2;
 	}
 
@@ -86,6 +86,10 @@
 
 	.advantages-image {
 		@apply w-3/6 flex justify-center;
+	}
+
+	.advantages-list {
+		@apply pl-16;
 	}
 
 	.advantage {
