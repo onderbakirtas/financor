@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let inverted = true;
 
-	$: logoPath = inverted ? '../img/logo-p.png' : '../img/logo-w.png';
+	$: logoPath = inverted ? '../img/wallet-c.svg' : '../img/wallet-a.svg';
 </script>
 
 <a class="logo" href="/">
