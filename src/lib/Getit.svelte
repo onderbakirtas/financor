@@ -36,7 +36,7 @@
 
 <style lang="postcss">
 	.getit {
-		@apply bg-purple-700 rounded-3xl max-w-screen-lg mx-auto mt-32 mb-40 flex;
+		@apply bg-purple-700 rounded-3xl max-w-screen-lg mx-auto mt-32 flex;
 	}
 
   .getit-container {
