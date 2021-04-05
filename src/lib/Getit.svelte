@@ -36,11 +36,11 @@
 
 <style lang="postcss">
 	.getit {
-		@apply bg-purple-700 rounded-3xl max-w-screen-lg mx-auto mt-32 flex;
+		@apply rounded-3xl max-w-screen-lg mx-auto mt-32 flex;
 	}
 
   .getit-container {
-    @apply w-full bg-purple-700;
+    @apply w-full bg-purple-100;
   }
 
 	.getit-body {
@@ -48,12 +48,12 @@
 	}
 
 	.getit-title {
-		@apply text-4xl font-bold text-white;
+		@apply text-4xl font-bold text-purple-700;
 		font-family: 'Jost', sans-serif;
 	}
 
 	.getit-content {
-		@apply mt-3 text-lg text-purple-200;
+		@apply mt-3 text-lg text-gray-500;
 	}
 
 	.getit-buttons {
@@ -61,7 +61,7 @@
 	}
 
 	.button {
-		@apply h-12 w-12 p-2 inline-flex text-purple-50 duration-150;
+		@apply h-12 w-12 p-2 inline-flex text-purple-700 duration-150;
 	}
 
 	.button + .button {
@@ -69,7 +69,7 @@
 	}
 
 	.button:hover {
-		@apply text-purple-300;
+		@apply text-purple-400;
 	}
 
 	.getit-phones {
