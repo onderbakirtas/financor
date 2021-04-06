@@ -1,46 +1,52 @@
-<section class="features">
-	<header class="features-header">
-		<h2>How <span>Financor</span> Works</h2>
-		<p>
-			You have full control on how you create accounts, categories and savings. The only thing you
-			need to do is add expense/income, rest is done with Financor's intelligent organiziting
-			capabilities.
-		</p>
-	</header>
-	<main class="features-main">
-		<div class="left">
-			<div class="feature">
-				<span class="feature-icon">1</span>
-				<h3 class="feature-title">Add Your Expense</h3>
-				<p class="feature-text">Easily add your expense/income with one tap.</p>
+<div class="features-container" id="how">
+	<section class="features">
+		<header class="features-header">
+			<h2>How <span>Financor</span> Works</h2>
+			<p>
+				You have full control on how you create accounts, categories and savings. The only thing you
+				need to do is add expense/income, rest is done with Financor's intelligent organiziting
+				capabilities.
+			</p>
+		</header>
+		<main class="features-main">
+			<div class="left">
+				<div class="feature">
+					<span class="feature-icon">1</span>
+					<h3 class="feature-title">Add Your Expense</h3>
+					<p class="feature-text">Easily add your expense/income with one tap.</p>
+				</div>
+				<div class="feature">
+					<span class="feature-icon">2</span>
+					<h3 class="feature-title">Add Your Expense</h3>
+					<p class="feature-text">Easily add your expense/income with one tap.</p>
+				</div>
 			</div>
-			<div class="feature">
-				<span class="feature-icon">2</span>
-				<h3 class="feature-title">Add Your Expense</h3>
-				<p class="feature-text">Easily add your expense/income with one tap.</p>
+			<div class="center">
+				<img src="../img/feature-image.png" alt="feature" />
 			</div>
-		</div>
-		<div class="center">
-			<img src="../img/feature-image.png" alt="feature" />
-		</div>
-		<div class="right">
-			<div class="feature">
-				<span class="feature-icon">3</span>
-				<h3 class="feature-title">Add Your Expense</h3>
-				<p class="feature-text">Easily add your expense/income with one tap.</p>
+			<div class="right">
+				<div class="feature">
+					<span class="feature-icon">3</span>
+					<h3 class="feature-title">Add Your Expense</h3>
+					<p class="feature-text">Easily add your expense/income with one tap.</p>
+				</div>
+				<div class="feature">
+					<span class="feature-icon">4</span>
+					<h3 class="feature-title">Add Your Expense</h3>
+					<p class="feature-text">Easily add your expense/income with one tap.</p>
+				</div>
 			</div>
-			<div class="feature">
-				<span class="feature-icon">4</span>
-				<h3 class="feature-title">Add Your Expense</h3>
-				<p class="feature-text">Easily add your expense/income with one tap.</p>
-			</div>
-		</div>
-	</main>
-</section>
+		</main>
+	</section>
+</div>
 
 <style lang="postcss">
 	.features {
 		@apply container max-w-screen-xl mx-auto pt-40;
+	}
+
+	.features-container {
+		@apply relative z-10 bg-white;
 	}
 
 	.features-header {
@@ -77,12 +83,12 @@
 	}
 
 	.features-main .left {
-    @apply pr-8;
-  }
-  
+		@apply pr-8;
+	}
+
 	.features-main .right {
-    @apply pl-8;
-  }
+		@apply pl-8;
+	}
 
 	.features-main .left,
 	.features-main .right {
@@ -113,10 +119,10 @@
 	.feature-title {
 		@apply text-xl font-bold text-gray-800;
 		@apply mt-4;
-    font-family: 'Jost', sans-serif;
+		font-family: 'Jost', sans-serif;
 	}
 
-  .feature-text {
-    @apply mt-1 text-gray-600 text-lg;
-  }
+	.feature-text {
+		@apply mt-1 text-gray-600 text-lg;
+	}
 </style>

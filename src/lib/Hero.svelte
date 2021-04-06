@@ -24,7 +24,7 @@
 
 <style lang="postcss">
 	.hero-container {
-		@apply relative bg-cover bg-top pt-16;
+		@apply relative bg-cover bg-top pt-16 z-10;
 		/* background: url(../img/bg.png); */
     min-height: 800px;
 		background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);

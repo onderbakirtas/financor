@@ -1,7 +1,7 @@
 <nav class="menu">
-  <a class="menu-item" href="#about">About</a>
   <a class="menu-item" href="#how">How It Works</a>
-  <a class="menu-item" href="#adv">Advantages</a>
+  <a class="menu-item" href="#advantages">Advantages</a>
+  <a class="menu-item" href="#getit">Get It</a>
 </nav>
 
 <style lang="postcss">

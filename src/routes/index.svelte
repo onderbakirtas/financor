@@ -16,6 +16,6 @@
 
 <style style lang="postcss">
 	main {
-		@apply mx-auto;
+		@apply mx-auto pb-16;
 	}
 </style>
