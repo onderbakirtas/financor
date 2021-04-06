@@ -8,7 +8,7 @@
 	<div class="footer-container">
 		<div class="footer-subscribe">
 			<div class="subscribe-body">
-				<input type="text" />
+				<input type="text" placeholder="Email address..." />
 				<button>Get Notified</button>
 			</div>
 			<p class="subscribe-footer">We don't spam, only three or four mails for you.</p>
@@ -39,7 +39,7 @@
 
 <style lang="postcss">
 	.footer {
-		@apply bg-purple-50;
+		@apply bg-purple-900;
 	}
 
 	.footer-container {
@@ -51,36 +51,37 @@
 	}
 
   .subscribe-body input {
-    @apply bg-gray-300 h-12 outline-none p-4 rounded-lg;
-    @apply border-2 border-solid border-gray-300;
+    @apply bg-gray-50 h-12 outline-none p-4 rounded-lg duration-150 inline-block w-72;
+    @apply border-4 border-solid border-gray-50;
   }
   .subscribe-body input:focus {
-    @apply bg-white border-purple-500;
+    @apply bg-white border-pink-400;
   }
 
   .subscribe-body button {
-    @apply bg-purple-700 text-white h-12 rounded-lg ml-2 px-6 font-bold duration-150;
+    @apply bg-pink-500 text-indigo-100 h-12 rounded-lg ml-2 px-6 font-bold duration-150;
   }
 
   .subscribe-body button:hover {
-    @apply bg-purple-500;
+    @apply bg-pink-600;
   }
 
   .subscribe-footer {
-    @apply mt-2 text-gray-600;
+    @apply mt-2 text-purple-300;
   }
 
 	.footer-social button {
-		@apply w-10 h-10 ml-3 inline-flex justify-center items-end p-3 bg-gray-600 rounded-full;
-		@apply text-white;
+    @apply w-10 h-10 ml-3 p-3;
+		@apply inline-flex justify-center items-end;
+		@apply bg-purple-600 text-purple-100 rounded-full duration-150;
 	}
 
 	.footer-social button:hover {
-		@apply bg-gray-900;
+		@apply bg-purple-500 text-white;
 	}
 
   .footer-bottomline {
-    @apply bg-gray-800 h-20 flex items-center;
+    @apply bg-gray-900 h-16 flex items-center;
   }
 
   .footer-meta {
