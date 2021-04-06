@@ -4,63 +4,69 @@
 	import Trophy from './Icons/Trophy.svelte';
 </script>
 
-<section class="advantages">
-	<header class="advantages-header">
-		<h2>Advantages of <span>Financor</span> App</h2>
-		<p>
-			You have full control on how you create accounts, categories and savings. The only thing you
-			need to do is add expense/income, rest is done by Financor.
-		</p>
-	</header>
-	<main class="advantages-main">
-		<aside class="advantages-image">
-			<img src="../img/about.png" alt="advantage" />
-		</aside>
-		<section class="advantages-list">
-			<div class="advantage">
-				<span class="advantage-icon">
-					<Dollar />
-				</span>
-				<div class="advantage-body">
-					<h3 class="advantage-title">Some Advantage Title</h3>
-					<p class="advantage-text">
-						Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub
-						indxgo juice poutine.
-					</p>
+<div class="advantages-container" id="advantages">
+	<section class="advantages">
+		<header class="advantages-header">
+			<h2>Advantages of <span>Financor</span> App</h2>
+			<p>
+				You have full control on how you create accounts, categories and savings. The only thing you
+				need to do is add expense/income, rest is done by Financor.
+			</p>
+		</header>
+		<main class="advantages-main">
+			<aside class="advantages-image">
+				<img src="../img/about.png" alt="advantage" />
+			</aside>
+			<section class="advantages-list">
+				<div class="advantage">
+					<span class="advantage-icon">
+						<Dollar />
+					</span>
+					<div class="advantage-body">
+						<h3 class="advantage-title">Some Advantage Title</h3>
+						<p class="advantage-text">
+							Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub
+							indxgo juice poutine.
+						</p>
+					</div>
 				</div>
-			</div>
-			<div class="advantage">
-				<span class="advantage-icon">
-					<FileDocument />
-				</span>
-				<div class="advantage-body">
-					<h3 class="advantage-title">Some Advantage Title</h3>
-					<p class="advantage-text">
-						Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub
-						indxgo juice poutine.
-					</p>
+				<div class="advantage">
+					<span class="advantage-icon">
+						<FileDocument />
+					</span>
+					<div class="advantage-body">
+						<h3 class="advantage-title">Some Advantage Title</h3>
+						<p class="advantage-text">
+							Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub
+							indxgo juice poutine.
+						</p>
+					</div>
 				</div>
-			</div>
-			<div class="advantage">
-				<span class="advantage-icon">
-					<Trophy />
-				</span>
-				<div class="advantage-body">
-					<h3 class="advantage-title">Some Advantage Title</h3>
-					<p class="advantage-text">
-						Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub
-						indxgo juice poutine.
-					</p>
+				<div class="advantage">
+					<span class="advantage-icon">
+						<Trophy />
+					</span>
+					<div class="advantage-body">
+						<h3 class="advantage-title">Some Advantage Title</h3>
+						<p class="advantage-text">
+							Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub
+							indxgo juice poutine.
+						</p>
+					</div>
 				</div>
-			</div>
-		</section>
-	</main>
-</section>
+			</section>
+		</main>
+	</section>
+</div>
 
 <style lang="postcss">
 	.advantages {
-		@apply container max-w-screen-xl mx-auto pt-40;
+		@apply container max-w-screen-xl mx-auto pt-40 pb-32;
 		--ggs: 2;
+	}
+
+	.advantages-container {
+		@apply relative z-10 w-full bg-white;
 	}
 
 	.advantages-header {

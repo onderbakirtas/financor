@@ -5,7 +5,7 @@
 	import Windows from './Icons/Windows.svelte';
 </script>
 
-<div class="getit-container">
+<div class="getit-container" id="getit">
 	<section class="getit">
 		<main class="getit-body">
 			<h3 class="getit-title">Download <span>Financor</span> App</h3>
@@ -36,11 +36,11 @@
 
 <style lang="postcss">
 	.getit {
-		@apply rounded-3xl max-w-screen-lg mx-auto mt-32 flex;
+		@apply rounded-3xl max-w-screen-lg mx-auto flex;
 	}
 
   .getit-container {
-    @apply w-full bg-purple-100;
+    @apply w-full bg-purple-100 relative z-10;
   }
 
 	.getit-body {
