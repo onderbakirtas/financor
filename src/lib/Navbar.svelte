@@ -4,44 +4,47 @@
 	import NavbarMenu from './NavbarMenu.svelte';
 
 	let y = 0;
+  let showable = true;
+
+
 </script>
 
 <svelte:window bind:scrollY={y} />
 
 <nav class="navbar" class:scrolled={y > 100}>
 	<Logo inverted={y > 100} />
-	<NavbarMenu/>
+	<NavbarMenu />
 	<NavbarCta />
 </nav>
 
 <style lang="postcss">
 	.navbar {
-		@apply py-3 px-6 flex justify-between items-center fixed w-full z-50 duration-150;
-    @apply border-b border-transparent;
+		@apply py-2 px-3 md:py-3 md:px-6;
+		@apply flex justify-between items-center flex-wrap md:flex-nowrap;
+		@apply fixed w-full z-40 duration-150;
+		@apply border-b border-transparent;
+		@apply bg-white bg-opacity-90 md:bg-transparent md:bg-opacity-100;
 		font-family: 'Jost', sans-serif;
 	}
 
-  .navbar.scrolled {
-    @apply bg-white bg-opacity-90 border-gray-200;
-    backdrop-filter: blur(10px);
-  }
+	.navbar.scrolled {
+		@apply bg-white bg-opacity-90 border-gray-200;
+		backdrop-filter: blur(10px);
+	}
 
-  .navbar.scrolled :global(.logo-txt) {
-    @apply text-gray-700;
-  }
+	.navbar.scrolled :global(.logo-txt) {
+		@apply text-gray-700;
+	}
 
-  
-  .navbar.scrolled :global(.menu-item) {
-    @apply text-gray-800;
-  }
+	.navbar.scrolled :global(.menu-item) {
+		@apply text-gray-800;
+	}
 
-  
-  .navbar.scrolled :global(.menu-item:hover) {
-    @apply text-gray-500;
-  }
+	.navbar.scrolled :global(.menu-item:hover) {
+		@apply text-gray-500;
+	}
 
-  .navbar.scrolled :global(.navbar-cta) {
-    @apply bg-purple-700 text-white;
-
-  }
+	.navbar.scrolled :global(.navbar-cta) {
+		@apply bg-purple-700 text-white;
+	}
 </style>
