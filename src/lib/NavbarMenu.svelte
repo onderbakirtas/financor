@@ -6,7 +6,7 @@
 
 <style lang="postcss">
 .menu {
-  @apply flex;
+  @apply flex order-2 md:order-1;
 }
 
 .menu-item {
