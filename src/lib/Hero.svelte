@@ -53,7 +53,7 @@
 	}
 
 	.hero-p {
-		@apply text-purple-200;
+		@apply text-indigo-200;
 		@apply pt-4 md:pt-6;
 		@apply text-lg md:text-xl;
 	}
@@ -88,15 +88,15 @@
 		@apply h-12 md:h-14;
 	}
 	.button:hover {
-		@apply bg-purple-100;
+		@apply bg-indigo-100;
 	}
 
 	.button-outlined {
-		@apply bg-transparent border-2 border-purple-100 text-purple-200 ml-4;
+		@apply bg-transparent border-2 border-indigo-100 text-indigo-200 ml-4;
 	}
 
 	.button-outlined:hover {
-		@apply bg-white bg-opacity-20 text-purple-50;
+		@apply bg-white bg-opacity-20 text-white;
 		box-shadow: none;
 	}
 </style>
