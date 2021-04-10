@@ -24,22 +24,19 @@
 
 <style lang="postcss">
 	.hero-container {
-		@apply relative bg-cover bg-top pt-16 z-10;
-		/* background: url(../img/bg.png); */
+		@apply relative bg-cover bg-top z-10 h-auto;
+		@apply pt-14 md:pt-16;
     min-height: 800px;
 		background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);
 	}
 
 	.hero-shape {
-		bottom: -8px;
-		left: 0;
-		position: absolute;
-		right: 0;
-		z-index: 1;
+		@apply -bottom-2 left-0 absolute right-0 z-10;
 	}
 
 	.hero-content {
-		@apply container mx-auto max-w-screen-xl relative z-20 flex items-center pt-8;
+		@apply container mx-auto max-w-screen-xl relative z-20 pt-8;
+		@apply flex flex-col md:flex-row items-center;
 	}
 
 	.hero-text {
