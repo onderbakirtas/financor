@@ -37,6 +37,7 @@
 		@apply container mx-auto max-w-screen-xl relative z-20;
 		@apply flex flex-col md:flex-row items-center;
 		@apply pt-12 md:pt-8;
+		@apply pb-16 md:pb-0;
 	}
 
 	.hero-text {
@@ -58,7 +59,9 @@
 	}
 
 	.hero-phone {
-		@apply mx-auto relative mt-8;
+		@apply relative;
+		@apply mx-20 md:mx-auto;
+		@apply mt-20 md:mt-8;
 	}
 
 	.hero-phone-shape {
@@ -79,9 +82,9 @@
 		font-family: 'Jost', sans-serif;
 		box-shadow: none;
 		@apply inline-flex items-center;
-		@apply rounded-md bg-white text-purple-700 duration-200 leading-none;
-		@apply text-lg;
-		@apply px-4 md:px-6;
+		@apply rounded-md bg-white text-gray-700 duration-200 leading-none;
+		@apply md:text-lg;
+		@apply px-5 md:px-6;
 		@apply h-12 md:h-14;
 	}
 	.button:hover {
