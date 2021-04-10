@@ -19,7 +19,8 @@
 
 <style lang="postcss">
 	.navbar {
-		@apply py-2 px-3 md:py-3 md:px-6;
+		@apply px-3 md:px-6;
+		@apply h-14 md:h-16;
 		@apply flex justify-between items-center flex-wrap md:flex-nowrap;
 		@apply fixed w-full z-40 duration-150;
 		@apply border-b border-transparent;
