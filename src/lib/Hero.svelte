@@ -6,15 +6,14 @@
 				With its intelligent organization capabilities, Financor helps you to save your precious $$$
 				to spend it later for your beloved kittens.
 			</p>
-      <div class="hero-buttons">
-        <button class="button apple">Apple</button>
-        <button class="button android">Android</button>
-        <button class="button windows">Windows</button>
-      </div>
+			<div class="hero-buttons">
+				<button class="button apple">Launch Financor</button>
+				<button class="button button-outlined">Explore for more</button>
+			</div>
 		</article>
 		<aside class="hero-phone">
 			<img class="hero-phone-shape" src="../img/iphone-x-frame.png" alt="" />
-      <img class="hero-phone-image" src="../img/top-screen-6.png" alt="some" />
+			<img class="hero-phone-image" src="../img/top-screen-6.png" alt="some" />
 		</aside>
 	</div>
 	<div class="hero-shape">
@@ -26,7 +25,7 @@
 	.hero-container {
 		@apply relative bg-cover bg-top z-10 h-auto;
 		@apply pt-14 md:pt-16;
-    min-height: 800px;
+		min-height: 800px;
 		background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);
 	}
 
@@ -35,50 +34,66 @@
 	}
 
 	.hero-content {
-		@apply container mx-auto max-w-screen-xl relative z-20 pt-8;
+		@apply container mx-auto max-w-screen-xl relative z-20;
 		@apply flex flex-col md:flex-row items-center;
+		@apply pt-12 md:pt-8;
 	}
 
 	.hero-text {
-		@apply text-white w-8/12;
+		@apply text-white;
+		@apply w-full md:w-8/12;
+		@apply px-4 md:px-0;
 	}
 
 	.hero-title {
+		@apply text-3xl md:text-4xl;
 		@apply font-bold leading-tight;
 		font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
 	}
 
 	.hero-p {
-		@apply pt-6 text-xl;
+		@apply text-purple-200;
+		@apply pt-4 md:pt-6;
+		@apply text-lg md:text-xl;
 	}
 
 	.hero-phone {
-    @apply mx-auto relative mt-8;
+		@apply mx-auto relative mt-8;
 	}
-  
-  .hero-phone-shape {
-    @apply block w-auto max-w-full h-auto relative z-20 pointer-events-none select-none;
 
-  }
-  
-  .hero-phone-image {
-    @apply absolute block top-0 left-3 rounded-3xl pointer-events-none select-none;
-    height: 98%;
-    top: 5px;
-  }
+	.hero-phone-shape {
+		@apply block w-auto max-w-full h-auto relative z-20 pointer-events-none select-none;
+	}
 
-  .hero-buttons {
-    @apply mt-8 flex;
-  }
+	.hero-phone-image {
+		@apply absolute block top-0 left-3 rounded-3xl pointer-events-none select-none;
+		height: 98%;
+		top: 5px;
+	}
 
-  .button {
-    @apply inline-flex px-6 py-2 bg-white mr-4 duration-200 text-purple-600;
-    @apply rounded-lg;
-  }
+	.hero-buttons {
+		@apply mt-8 flex;
+	}
 
-  .button:hover {
-    @apply bg-opacity-90;
-  }
+	.button {
+		font-family: 'Jost', sans-serif;
+		box-shadow: none;
+		@apply inline-flex items-center;
+		@apply rounded-md bg-white text-purple-700 duration-200 leading-none;
+		@apply text-lg;
+		@apply px-4 md:px-6;
+		@apply h-12 md:h-14;
+	}
+	.button:hover {
+		@apply bg-purple-100;
+	}
 
+	.button-outlined {
+		@apply bg-transparent border-2 border-purple-100 text-purple-200 ml-4;
+	}
+
+	.button-outlined:hover {
+		@apply bg-white bg-opacity-20 text-purple-50;
+		box-shadow: none;
+	}
 </style>
