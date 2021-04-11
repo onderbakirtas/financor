@@ -12,13 +12,17 @@
 			<div class="left">
 				<div class="feature">
 					<span class="feature-icon">1</span>
-					<h3 class="feature-title">Add Your Expense</h3>
-					<p class="feature-text">Easily add your expense/income with one tap.</p>
+					<main class="feature-body">
+						<h3 class="feature-title">Add Your Expense</h3>
+						<p class="feature-text">Easily add your expense/income with one tap.</p>
+					</main>
 				</div>
 				<div class="feature">
 					<span class="feature-icon">2</span>
-					<h3 class="feature-title">Add Your Expense</h3>
-					<p class="feature-text">Easily add your expense/income with one tap.</p>
+					<main class="feature-body">
+						<h3 class="feature-title">Add Your Expense</h3>
+						<p class="feature-text">Easily add your expense/income with one tap.</p>
+					</main>
 				</div>
 			</div>
 			<div class="center">
@@ -27,13 +31,17 @@
 			<div class="right">
 				<div class="feature">
 					<span class="feature-icon">3</span>
-					<h3 class="feature-title">Add Your Expense</h3>
-					<p class="feature-text">Easily add your expense/income with one tap.</p>
+					<main class="feature-body">
+						<h3 class="feature-title">Add Your Expense</h3>
+						<p class="feature-text">Easily add your expense/income with one tap.</p>
+					</main>
 				</div>
 				<div class="feature">
 					<span class="feature-icon">4</span>
-					<h3 class="feature-title">Add Your Expense</h3>
-					<p class="feature-text">Easily add your expense/income with one tap.</p>
+					<main class="feature-body">
+						<h3 class="feature-title">Add Your Expense</h3>
+						<p class="feature-text">Easily add your expense/income with one tap.</p>
+					</main>
 				</div>
 			</div>
 		</main>
@@ -75,12 +83,8 @@
 		@apply flex-col md:flex-row;
 	}
 
-	.features-main .left .feature {
-		@apply justify-end items-end text-right;
-	}
-
 	.features-main .left {
-		@apply pr-8;
+		@apply md:pr-8;
 		@apply order-2 md:order-1;
 	}
 
@@ -88,16 +92,17 @@
 		@apply flex items-center justify-center relative;
 		@apply w-full md:w-2/6;
 		@apply order-1 md:order-2;
+		@apply mb-8 md:mb-0;
 	}
 
 	.features-main .right {
-		@apply pl-8;
+		@apply md:pl-8;
 		@apply order-3 md:order-3;
 	}
 
 	.features-main .left,
 	.features-main .right {
-		@apply w-2/6;
+		@apply w-full md:w-2/6;
 	}
 
 	.features-main .center::before,
@@ -124,27 +129,42 @@
 		@apply w-5/6 md:w-80;
 	}
 	.feature {
-		@apply flex flex-col mb-8;
+		@apply flex items-start;
+		@apply flex-row md:flex-col;
+		@apply mb-6 md:mb-8;
 	}
 
 	.features-main .right .feature {
 		@apply justify-start items-start;
 	}
 
+	.features-main .left .feature {
+		@apply items-start md:items-end;
+		@apply justify-start md:justify-end;
+		@apply text-left md:text-right;
+	}
+
 	.feature-icon {
-		@apply inline-flex items-center justify-center;
-		@apply rounded-2xl h-20 w-20;
-		@apply bg-purple-100 text-purple-700;
-		@apply text-4xl font-bold;
+		@apply bg-purple-100 text-purple-700 rounded-2xl font-bold;
+		@apply inline-flex items-center justify-center flex-shrink-0 flex-grow-0;
+		@apply h-16 md:h-20 w-16 md:w-20;
+		@apply text-2xl md:text-4xl;
+	}
+
+	.feature-body {
+		@apply ml-4 md:m-0;
 	}
 
 	.feature-title {
-		@apply text-xl font-bold text-gray-800;
-		@apply mt-4;
+		@apply text-lg md:text-xl;
+		@apply md:mt-4;
+		@apply font-bold text-gray-800 leading-relaxed;
 		font-family: 'Jost', sans-serif;
 	}
 
 	.feature-text {
-		@apply mt-1 text-gray-600 text-lg;
+		@apply text-base md:text-lg;
+		@apply md:mt-1;
+		@apply text-gray-600 leading-snug;
 	}
 </style>
