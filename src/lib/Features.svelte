@@ -132,7 +132,7 @@
 	.feature {
 		@apply flex items-start;
 		@apply flex-row md:flex-col;
-		@apply mb-6 md:mb-8;
+		@apply mb-6 xl:mb-8;
 	}
 
 	.feature + .feature {
@@ -152,8 +152,8 @@
 	.feature-icon {
 		@apply bg-purple-100 text-purple-700 rounded-2xl font-bold;
 		@apply inline-flex items-center justify-center flex-shrink-0 flex-grow-0;
-		@apply h-16 md:h-20 w-16 md:w-20;
-		@apply text-2xl md:text-4xl;
+		@apply h-16 xl:h-20 w-16 xl:w-20;
+		@apply text-2xl xl:text-4xl;
 	}
 
 	.feature-body {
@@ -161,14 +161,14 @@
 	}
 
 	.feature-title {
-		@apply text-lg md:text-xl;
-		@apply md:mt-4;
+		@apply text-lg xl:text-xl;
+		@apply md:mt-2 xl:mt-4;
 		@apply font-bold text-gray-800 leading-relaxed;
 		font-family: 'Jost', sans-serif;
 	}
 
 	.feature-text {
-		@apply text-base md:text-lg;
+		@apply text-base xl:text-lg;
 		@apply md:mt-1;
 		@apply text-gray-600 leading-snug;
 	}
