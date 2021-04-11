@@ -91,6 +91,7 @@
 
 	.advantages-main {
 		@apply flex mt-20;
+		@apply flex-col md:flex-row;
 	}
 
 	.advantages-image {
