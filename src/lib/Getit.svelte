@@ -31,9 +31,9 @@
 		@apply rounded-3xl max-w-screen-lg mx-auto flex;
 	}
 
-  .getit-container {
-    @apply w-full bg-purple-100 relative z-10;
-  }
+	.getit-container {
+		@apply w-full bg-purple-100 relative z-10;
+	}
 
 	.getit-body {
 		@apply px-12 py-20 w-3/5 flex flex-col justify-start items-start flex-shrink-0;
@@ -54,10 +54,6 @@
 
 	.button {
 		@apply h-12 w-12 p-2 inline-flex text-purple-700 duration-150;
-	}
-
-	.button + .button {
-		@apply ml-4;
 	}
 
 	.button:hover {
