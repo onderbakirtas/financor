@@ -49,23 +49,27 @@
 	}
 
 	.subscribe-body {
-    @apply flex justify-start items-center;
+    @apply flex justify-start;
+    @apply items-stretch md:items-center;
+    @apply flex-col md:flex-row;
 	}
 
   .subscribe-body input {
     @apply bg-gray-50 h-12 outline-none p-4 rounded-lg duration-150 inline-block w-72;
     @apply border-4 border-solid border-gray-50;
+    @apply w-full md:w-72;
   }
   .subscribe-body input:focus {
     @apply bg-white border-pink-400;
   }
 
   .subscribe-body button {
-    @apply bg-pink-500 text-indigo-100 h-12 rounded-lg ml-2 px-6 font-bold duration-150;
+    @apply bg-pink-700 text-pink-50 h-12 rounded-lg px-6 font-bold duration-150;
+    @apply mt-3 md:ml-2;
   }
 
   .subscribe-body button:hover {
-    @apply bg-pink-600;
+    @apply bg-pink-500;
   }
 
   .subscribe-footer {
