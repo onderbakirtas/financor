@@ -51,7 +51,7 @@
 <style lang="postcss">
 	.features {
 		@apply container max-w-screen-xl mx-auto;
-		@apply py-14 md:py-40 px-4;
+		@apply py-14 md:py-24 xl:py-32 px-4;
 	}
 
 	.features-container {
@@ -64,7 +64,7 @@
 
 	.features-header h2 {
 		@apply text-gray-800;
-		@apply text-3xl md:text-4xl;
+		@apply text-3xl md:text-4xl xl:text-5xl;
 		font-family: 'Playfair Display', serif;
 	}
 
@@ -73,9 +73,8 @@
 	}
 
 	.features-header p {
-		@apply mt-4 md:mt-6;
-		@apply text-lg md:text-xl md:leading-8;
-		@apply text-gray-500;
+		@apply mt-5 text-gray-500 leading-relaxed;
+		@apply text-base md:text-lg xl:text-xl;
 	}
 
 	.features-main {
