@@ -4,8 +4,8 @@
 	import Twitter from './Icons/Twitter.svelte';
 </script>
 
-<footer class="footer">
-	<div class="footer-container">
+<footer class="footer-container">
+	<div class="footer">
 		<div class="footer-subscribe">
 			<div class="subscribe-body">
 				<input type="text" placeholder="Email address..." />
@@ -38,12 +38,14 @@
 </div>
 
 <style lang="postcss">
-	.footer {
+	.footer-container {
 		@apply bg-gray-900 relative z-10;
 	}
 
-	.footer-container {
-		@apply max-w-screen-xl mx-auto flex justify-between items-center h-40;
+	.footer {
+		@apply max-w-screen-xl mx-auto flex justify-between items-center;
+    @apply flex-col md:flex-row;
+    @apply py-8 md:py-12;
 	}
 
 	.subscribe-body {
