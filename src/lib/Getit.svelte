@@ -36,16 +36,20 @@
 	}
 
 	.getit-body {
-		@apply px-12 py-20 w-3/5 flex flex-col justify-start items-start flex-shrink-0;
+		@apply flex flex-col justify-start items-start flex-shrink-0;
+		@apply px-8 md:px-12 py-14 md:py-20;
+		@apply w-full md:w-3/5;
 	}
 
 	.getit-title {
-		@apply text-4xl font-bold text-purple-700;
+		@apply font-bold text-purple-800;
+		@apply text-3xl md:text-4xl;
 		font-family: 'Jost', sans-serif;
 	}
 
 	.getit-content {
-		@apply mt-3 text-lg text-gray-500;
+		@apply text-base md:text-lg;
+		@apply mt-3 text-gray-600 leading-relaxed;
 	}
 
 	.getit-buttons {
