@@ -45,11 +45,11 @@
 	.hero-text {
 		@apply text-white;
 		@apply w-full md:w-10/12;
-		@apply pr-0 md:pr-8 lg:pr-0;
+		@apply pr-0 md:pr-8 xl:pr-0;
 	}
 
 	.hero-title {
-		@apply text-3xl md:text-4xl;
+		@apply text-3xl lg:text-4xl;
 		@apply font-bold leading-tight;
 		font-family: 'Playfair Display', serif;
 	}
@@ -57,7 +57,7 @@
 	.hero-p {
 		@apply text-indigo-200;
 		@apply pt-4 md:pt-6;
-		@apply text-lg md:text-xl;
+		@apply text-lg xl:text-xl;
 	}
 
 	.hero-phone {
