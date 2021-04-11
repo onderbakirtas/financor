@@ -25,7 +25,6 @@
 	<div class="footer-meta">
 		<span class="copy">&copy; 2021.</span>
 		<a class="link" href="/">
-			<!-- <img src="../img/logo-w.png" alt="logo"> -->
 			<span>Financor</span>
 		</a>
 		<span class="meta">Helps you to save.</span>
