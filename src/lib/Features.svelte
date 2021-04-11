@@ -51,7 +51,7 @@
 <style lang="postcss">
 	.features {
 		@apply container max-w-screen-xl mx-auto;
-		@apply pt-20 md:pt-40 px-4;
+		@apply py-14 md:py-40 px-4;
 	}
 
 	.features-container {
