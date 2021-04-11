@@ -35,15 +35,16 @@
 
 	.hero-content {
 		@apply container mx-auto max-w-screen-xl relative z-20;
-		@apply flex flex-col md:flex-row items-center;
+		@apply flex items-center;
+		@apply flex-col md:flex-row;
 		@apply pt-12 md:pt-8;
 		@apply pb-16 md:pb-0;
+		@apply px-4 md:px-6;
 	}
 
 	.hero-text {
 		@apply text-white;
 		@apply w-full md:w-8/12;
-		@apply px-4 md:px-0;
 	}
 
 	.hero-title {
