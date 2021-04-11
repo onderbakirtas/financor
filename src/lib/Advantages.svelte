@@ -95,7 +95,8 @@
 	}
 
 	.advantages-image {
-		@apply w-3/6 flex justify-center;
+		@apply w-full md:w-3/6;
+		@apply flex justify-center;
 	}
 
 	.advantages-list {
