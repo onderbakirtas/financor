@@ -16,13 +16,13 @@
 		</div>
 		<div class="footer-social">
 			<button>
-				<Facebook />
+				<img src="../img/facebook.png" alt="facebook button" />
 			</button>
 			<button>
-				<Twitter />
+				<img src="../img/twitter.png" alt="twitter button" />
 			</button>
 			<button>
-				<Telegram />
+				<img src="../img/telegram.png" alt="telegram button" />
 			</button>
 		</div>
 	</div>
@@ -96,7 +96,11 @@
 	.footer-social button {
 		@apply w-12 h-12 p-4;
 		@apply inline-flex justify-center items-end;
-		@apply bg-gray-800 text-purple-100 rounded-full duration-150;
+		@apply bg-gray-800 rounded-full duration-150;
+	}
+
+	.footer-social button > img {
+		@apply opacity-80 duration-150;
 	}
 
 	.footer-social button + button {
@@ -104,7 +108,11 @@
 	}
 
 	.footer-social button:hover {
-		@apply bg-purple-500 text-white;
+		@apply bg-gray-700;
+	}
+
+	.footer-social button:hover > img {
+		@apply opacity-100;
 	}
 
 	.footer-bottomline {
@@ -141,6 +149,6 @@
 		@apply text-right;
 		@apply w-auto;
 		@apply order-2 md:order-1;
-    @apply ml-1 md:ml-0;
+		@apply ml-1 md:ml-0;
 	}
 </style>
