@@ -1,9 +1,3 @@
-<script>
-	import Facebook from './Icons/Facebook.svelte';
-	import Telegram from './Icons/Telegram.svelte';
-	import Twitter from './Icons/Twitter.svelte';
-</script>
-
 <footer class="footer-container">
 	<div class="footer">
 		<div class="footer-subscribe">
