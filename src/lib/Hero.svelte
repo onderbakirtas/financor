@@ -44,7 +44,8 @@
 
 	.hero-text {
 		@apply text-white;
-		@apply w-full md:w-8/12;
+		@apply w-full md:w-10/12;
+		@apply pr-0 md:pr-8 lg:pr-0;
 	}
 
 	.hero-title {
@@ -86,7 +87,7 @@
 		@apply rounded-md bg-white text-gray-700 duration-200 leading-none;
 		@apply md:text-lg;
 		@apply px-5 md:px-6;
-		@apply h-12 md:h-14;
+		@apply h-11 md:h-12 xl:h-14;
 	}
 	.button:hover {
 		@apply bg-indigo-100;
