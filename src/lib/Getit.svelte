@@ -53,11 +53,12 @@
 	}
 
 	.button {
-		@apply h-12 w-12 p-2 inline-flex text-purple-700 duration-150;
+		@apply h-12 px-6 inline-flex items-center bg-gray-900 text-white rounded-lg duration-150;
+		font-family: 'Jost', sans-serif;
 	}
 
 	.button:hover {
-		@apply text-purple-400;
+		@apply bg-gray-700;
 	}
 
 	.getit-phones {
