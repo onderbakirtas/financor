@@ -61,7 +61,8 @@
 
 <style lang="postcss">
 	.advantages {
-		@apply container max-w-screen-xl mx-auto pt-40 pb-32;
+		@apply container max-w-screen-xl mx-auto;
+		@apply px-4 pt-20 md:pt-40 pb-10 md:pb-32;
 		--ggs: 2;
 	}
 
