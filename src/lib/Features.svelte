@@ -51,7 +51,7 @@
 <style lang="postcss">
 	.features {
 		@apply container max-w-screen-xl mx-auto;
-		@apply pt-16 md:pt-40 px-4;
+		@apply pt-20 md:pt-40 px-4;
 	}
 
 	.features-container {
@@ -79,12 +79,14 @@
 	}
 
 	.features-main {
-		@apply flex max-w-screen-xl mt-20 items-center;
+		@apply flex items-center max-w-screen-xl;
 		@apply flex-col md:flex-row;
+		@apply mt-14 md:mt-20;
 	}
 
 	.features-main .left {
 		@apply md:pr-8;
+		@apply mb-6 md:mb-0;
 		@apply order-2 md:order-1;
 	}
 
@@ -92,7 +94,7 @@
 		@apply flex items-center justify-center relative;
 		@apply w-full md:w-2/6;
 		@apply order-1 md:order-2;
-		@apply mb-8 md:mb-0;
+		@apply mb-14 md:mb-0;
 	}
 
 	.features-main .right {
@@ -132,6 +134,10 @@
 		@apply flex items-start;
 		@apply flex-row md:flex-col;
 		@apply mb-6 md:mb-8;
+	}
+
+	.feature + .feature {
+		@apply mb-0;
 	}
 
 	.features-main .right .feature {
