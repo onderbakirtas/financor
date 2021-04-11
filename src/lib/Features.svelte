@@ -72,35 +72,31 @@
 
 	.features-main {
 		@apply flex max-w-screen-xl mt-20 items-center;
-	}
-
-	.feature {
-		@apply flex flex-col mb-8;
+		@apply flex-col md:flex-row;
 	}
 
 	.features-main .left .feature {
 		@apply justify-end items-end text-right;
 	}
 
-	.features-main .right .feature {
-		@apply justify-start items-start;
-	}
-
 	.features-main .left {
 		@apply pr-8;
+		@apply order-2 md:order-1;
+	}
+
+	.features-main .center {
+		@apply w-2/6 flex items-center justify-center relative;
+		@apply order-1 md:order-2;
 	}
 
 	.features-main .right {
 		@apply pl-8;
+		@apply order-3 md:order-3;
 	}
 
 	.features-main .left,
 	.features-main .right {
 		@apply w-2/6;
-	}
-
-	.features-main .center {
-		@apply w-2/6 flex items-center justify-center relative;
 	}
 
 	.features-main .center::before {
@@ -111,6 +107,13 @@
 
 	.features-main .center img {
 		@apply relative z-10;
+	}
+	.feature {
+		@apply flex flex-col mb-8;
+	}
+
+	.features-main .right .feature {
+		@apply justify-start items-start;
 	}
 
 	.feature-icon {
