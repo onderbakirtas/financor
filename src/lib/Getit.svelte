@@ -20,12 +20,6 @@
 				<button class="button">
 					<Apple />
 				</button>
-				<button class="button">
-					<PlayStore />
-				</button>
-				<button class="button">
-					<Windows />
-				</button>
 			</div>
 		</main>
 		<aside class="getit-phones">
