@@ -8,7 +8,7 @@
 <div class="getit-container" id="getit">
 	<section class="getit">
 		<main class="getit-body">
-			<h3 class="getit-title">Download <span>Financor</span> App</h3>
+			<h3 class="getit-title">Get The Best of <span>Your Money</span></h3>
 			<article class="getit-content">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate provident nulla
 				similique, voluptates id harum deserunt corrupti ea officia sed totam ullam ex dicta
@@ -17,9 +17,7 @@
 				maiores consectetur obcaecati nam.
 			</article>
 			<div class="getit-buttons">
-				<button class="button">
-					<Apple />
-				</button>
+				<button class="button">Launch Financor</button>
 			</div>
 		</main>
 		<aside class="getit-phones">
