@@ -25,12 +25,12 @@
 	.hero-container {
 		@apply relative bg-cover bg-top z-10 h-auto;
 		@apply pt-14 md:pt-16;
-		min-height: 800px;
+		@apply pb-12 md:pb-36;
 		background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);
 	}
 
 	.hero-shape {
-		@apply -bottom-2 left-0 absolute right-0 z-10;
+		@apply bottom-0 left-0 absolute right-0 z-10;
 	}
 
 	.hero-content {
