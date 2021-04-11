@@ -48,10 +48,10 @@
 		@apply py-8 px-4 md:py-12;
 	}
 
-  .footer-subscribe {
-    @apply w-full;
-    @apply text-center md:text-left;
-  }
+	.footer-subscribe {
+		@apply w-full;
+		@apply text-center md:text-left;
+	}
 
 	.subscribe-body {
 		@apply flex justify-start;
@@ -82,7 +82,7 @@
 	}
 
 	.footer-social {
-    @apply flex;
+		@apply flex;
 		@apply mt-6 md:mt-0;
 		@apply py-2 md:py-0;
 	}
@@ -93,7 +93,7 @@
 		@apply bg-gray-800 text-purple-100 rounded-full duration-150;
 	}
 
-	.footer-social button +  button {
+	.footer-social button + button {
 		@apply ml-3;
 	}
 
@@ -103,14 +103,18 @@
 
 	.footer-bottomline {
 		@apply bg-gray-800 h-16 flex items-center fixed bottom-0 left-0 right-0 w-full z-0;
+		@apply px-4;
 	}
 
 	.footer-meta {
-		@apply max-w-screen-xl container flex-row-reverse mx-auto flex justify-between items-center;
+		@apply max-w-screen-xl container flex-row-reverse mx-auto flex items-center;
+		@apply justify-start md:justify-between;
 	}
 
 	.link {
 		@apply inline-flex items-center;
+		@apply order-1 md:order-2;
+		@apply ml-auto md:ml-0;
 	}
 
 	.link span {
@@ -120,10 +124,17 @@
 
 	.meta,
 	.copy {
-		@apply text-gray-300 w-40;
+		@apply text-gray-300 md:w-40;
+	}
+
+	.meta {
+		@apply order-3 md:order-3;
 	}
 
 	.copy {
 		@apply text-right;
+		@apply w-auto;
+		@apply order-2 md:order-1;
+    @apply ml-1 md:ml-0;
 	}
 </style>
