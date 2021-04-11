@@ -62,12 +62,18 @@
 <style lang="postcss">
 	.advantages {
 		@apply container max-w-screen-xl mx-auto;
-		@apply px-4 pt-20 md:pt-40 pb-8 md:pb-32;
-		--ggs: 2;
+		@apply px-4 py-14 md:px-40 md:py-32;
+		--ggs: 1.5;
+	}
+
+	@media (max-width: 768) {
+		.advantages {
+			--ggs: 2;
+		}
 	}
 
 	.advantages-container {
-		@apply relative z-10 w-full bg-white;
+		@apply relative z-10 w-full bg-gray-50;
 	}
 
 	.advantages-header {
@@ -106,25 +112,35 @@
 	}
 
 	.advantage {
-		@apply flex mb-8 items-start;
+		@apply flex;
+		@apply flex-col md:flex-row;
+		@apply items-center md:items-start;
+		@apply text-center md:text-left;
+	}
+
+	.advantage + .advantage {
+		@apply mt-8;
 	}
 
 	.advantage-icon {
 		@apply flex items-center justify-center flex-grow-0 flex-shrink-0;
-		@apply w-28 h-28 rounded-full bg-purple-100;
-		@apply text-purple-700;
+		@apply w-24 md:w-28 h-24 md:h-28;
+		@apply text-blue-50 bg-purple-600 rounded-full;
 	}
 
 	.advantage-body {
-		@apply flex flex-col ml-4 py-2;
+		@apply flex flex-col;
+		@apply pt-2 md:py-2 md:ml-4;
 	}
 
 	.advantage-title {
-		@apply text-xl font-semibold text-gray-800;
+		@apply text-xl font-semibold text-gray-800 leading-relaxed;
 		font-family: 'Jost', sans-serif;
 	}
 
 	.advantage-text {
-		@apply text-gray-600 text-lg mt-1;
+		@apply text-base md:text-lg;
+		@apply mt-0 md:mt-1;
+		@apply text-gray-600;
 	}
 </style>
