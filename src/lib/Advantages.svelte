@@ -62,7 +62,7 @@
 <style lang="postcss">
 	.advantages {
 		@apply container max-w-screen-xl mx-auto;
-		@apply px-4 py-14 md:px-40 md:py-32;
+		@apply py-14 md:py-24 xl:py-32 px-4;
 		--ggs: 1.5;
 	}
 
@@ -83,7 +83,7 @@
 
 	.advantages-header h2 {
 		@apply text-gray-800;
-		@apply text-3xl md:text-4xl;
+		@apply text-3xl md:text-4xl xl:text-5xl;
 		font-family: 'Playfair Display', serif;
 	}
 
@@ -93,17 +93,19 @@
 
 	.advantages-header p {
 		@apply mt-4 md:mt-6;
-		@apply text-lg md:text-xl md:leading-8;
+		@apply text-base md:text-lg xl:text-xl;
 		@apply text-gray-500;
 	}
 
 	.advantages-main {
 		@apply flex;
 		@apply flex-col lg:flex-row;
+		@apply items-start lg:items-center;
 	}
 
 	.advantages-image {
 		@apply w-full lg:w-3/6;
+		@apply md:px-16 lg:px-0;
 		@apply flex-shrink-0 flex-grow self-center;
 	}
 
