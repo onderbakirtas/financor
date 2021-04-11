@@ -99,16 +99,20 @@
 
 	.advantages-main {
 		@apply flex;
-		@apply flex-col md:flex-row;
+		@apply flex-col lg:flex-row;
 	}
 
 	.advantages-image {
-		@apply w-full md:w-3/6;
-		@apply flex justify-center flex-shrink-0 self-center;
+		@apply w-full lg:w-3/6;
+		@apply flex-shrink-0 flex-grow self-center;
+	}
+
+	.advantages-image > img {
+		@apply w-full h-auto;
 	}
 
 	.advantages-list {
-		@apply md:pl-16 mt-14 md:mt-0;
+		@apply lg:pl-16 mt-14 lg:mt-0;
 	}
 
 	.advantage {
