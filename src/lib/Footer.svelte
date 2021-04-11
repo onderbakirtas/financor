@@ -12,7 +12,7 @@
 				<input type="text" placeholder="Your precious email address..." />
 				<button>Get Notified</button>
 			</div>
-			<p class="subscribe-footer">You will be notified, not spammed.</p>
+			<p class="subscribe-footer">You will only be notified, not spammed.</p>
 		</div>
 		<div class="footer-social">
 			<button>
@@ -75,8 +75,9 @@
 	}
 
 	.subscribe-body button {
-		@apply bg-pink-700 text-pink-50 h-12 rounded-lg px-6 font-bold duration-150;
+		@apply bg-pink-700 text-pink-50 h-12 rounded-lg px-6 duration-150;
 		@apply mt-3 md:mt-0 md:ml-2;
+		font-family: 'Jost', sans-serif;
 	}
 
 	.subscribe-body button:hover {
