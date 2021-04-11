@@ -62,7 +62,8 @@
 	}
 
 	.getit-phones {
-		@apply flex items-end justify-end w-full;
+		@apply items-end justify-end w-full;
+		@apply hidden md:flex;
 	}
 
 	.getit-phones .phone {
