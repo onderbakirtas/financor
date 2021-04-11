@@ -7,8 +7,9 @@
 <footer class="footer-container">
 	<div class="footer">
 		<div class="footer-subscribe">
+			<h6 class="subscribe-title">Poking Service</h6>
 			<div class="subscribe-body">
-				<input type="text" placeholder="Email address..." />
+				<input type="text" placeholder="Your precious email address..." />
 				<button>Get Notified</button>
 			</div>
 			<p class="subscribe-footer">You will be notified, not spammed.</p>
@@ -53,6 +54,11 @@
 		@apply text-center md:text-left;
 	}
 
+	.subscribe-title {
+		@apply text-white font-bold mb-2;
+		@apply text-base md:text-lg;
+	}
+
 	.subscribe-body {
 		@apply flex justify-start;
 		@apply items-stretch md:items-center;
@@ -60,7 +66,7 @@
 	}
 
 	.subscribe-body input {
-		@apply bg-gray-50 h-12 outline-none p-4 rounded-lg duration-150 inline-block w-72;
+		@apply bg-gray-50 h-12 outline-none p-4 rounded-lg duration-150 inline-block w-72 appearance-none;
 		@apply border-4 border-solid border-gray-50;
 		@apply w-full md:w-72;
 	}
