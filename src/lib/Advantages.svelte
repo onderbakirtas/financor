@@ -104,7 +104,7 @@
 
 	.advantages-image {
 		@apply w-full md:w-3/6;
-		@apply flex justify-center;
+		@apply flex justify-center flex-shrink-0;
 	}
 
 	.advantages-list {
