@@ -39,7 +39,7 @@
 
 <style lang="postcss">
 	.footer {
-		@apply bg-purple-900 relative z-10;
+		@apply bg-gray-900 relative z-10;
 	}
 
 	.footer-container {
@@ -81,7 +81,7 @@
 	}
 
   .footer-bottomline {
-    @apply bg-gray-900 h-16 flex items-center fixed bottom-0 left-0 right-0 w-full z-0;
+    @apply bg-gray-800 h-16 flex items-center fixed bottom-0 left-0 right-0 w-full z-0;
   }
 
   .footer-meta {
