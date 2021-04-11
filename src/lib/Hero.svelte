@@ -70,9 +70,9 @@
 	}
 
 	.hero-phone-image {
-		@apply absolute block top-0 left-3 rounded-3xl pointer-events-none select-none;
-		height: 98%;
-		top: 5px;
+		@apply absolute block left-4 rounded-3xl pointer-events-none select-none;
+		height: 95%;
+		top: 12px;
 	}
 
 	.hero-buttons {
