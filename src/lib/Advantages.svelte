@@ -62,7 +62,7 @@
 <style lang="postcss">
 	.advantages {
 		@apply container max-w-screen-xl mx-auto;
-		@apply px-4 pt-20 md:pt-40 pb-10 md:pb-32;
+		@apply px-4 pt-20 md:pt-40 pb-8 md:pb-32;
 		--ggs: 2;
 	}
 
@@ -72,6 +72,7 @@
 
 	.advantages-header {
 		@apply text-center max-w-screen-md mx-auto;
+		@apply pb-12 md:pb-20;
 	}
 
 	.advantages-header h2 {
@@ -91,7 +92,7 @@
 	}
 
 	.advantages-main {
-		@apply flex mt-20;
+		@apply flex;
 		@apply flex-col md:flex-row;
 	}
 
@@ -101,7 +102,7 @@
 	}
 
 	.advantages-list {
-		@apply pl-16;
+		@apply md:pl-16 mt-14 md:mt-0;
 	}
 
 	.advantage {
