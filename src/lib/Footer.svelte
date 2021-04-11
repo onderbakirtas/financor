@@ -131,11 +131,6 @@
 		font-family: 'Jost', sans-serif;
 	}
 
-	.meta,
-	.copy {
-		@apply text-gray-300 md:w-40;
-	}
-
 	.meta {
 		@apply order-3 md:order-3;
 	}
@@ -145,5 +140,10 @@
 		@apply w-auto;
 		@apply order-2 md:order-1;
 		@apply ml-1 md:ml-0;
+	}
+
+	.meta,
+	.copy {
+		@apply text-gray-300 md:w-40;
 	}
 </style>
