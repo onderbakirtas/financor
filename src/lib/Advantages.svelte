@@ -7,7 +7,7 @@
 <div class="advantages-container" id="advantages">
 	<section class="advantages">
 		<header class="advantages-header">
-			<h2>Advantages of <span>Financor</span> App</h2>
+			<h2>Advantages of <span>Financor</span></h2>
 			<p>
 				You have full control on how you create accounts, categories and savings. The only thing you
 				need to do is add expense/income, rest is done by Financor.
@@ -74,7 +74,8 @@
 	}
 
 	.advantages-header h2 {
-		@apply text-4xl text-gray-800;
+		@apply text-gray-800;
+		@apply text-3xl md:text-4xl;
 		font-family: 'Playfair Display', serif;
 	}
 
@@ -83,7 +84,9 @@
 	}
 
 	.advantages-header p {
-		@apply mt-6 text-xl text-gray-500 leading-8;
+		@apply mt-4 md:mt-6;
+		@apply text-lg md:text-xl md:leading-8;
+		@apply text-gray-500;
 	}
 
 	.advantages-main {
