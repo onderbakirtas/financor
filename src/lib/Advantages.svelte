@@ -125,28 +125,28 @@
 	}
 
 	.advantage + .advantage {
-		@apply mt-8;
+		@apply mt-10;
 	}
 
 	.advantage-icon {
 		@apply flex items-center justify-center flex-grow-0 flex-shrink-0;
-		@apply w-24 md:w-28 h-24 md:h-28;
+		@apply w-24 xl:w-28 h-24 xl:h-28;
 		@apply text-blue-50 bg-purple-600 rounded-full;
 	}
 
 	.advantage-body {
 		@apply flex flex-col;
-		@apply pt-2 md:py-2 md:ml-4;
+		@apply pt-2 md:pt-1 md:pb-1 md:ml-4;
 	}
 
 	.advantage-title {
-		@apply text-xl font-semibold text-gray-800 leading-relaxed;
+		@apply text-lg md:text-xl font-semibold text-gray-800 leading-relaxed;
 		font-family: 'Jost', sans-serif;
 	}
 
 	.advantage-text {
-		@apply text-base md:text-lg;
-		@apply mt-0 md:mt-1;
-		@apply text-gray-600;
+		@apply text-base xl:text-lg;
+		@apply mt-1;
+		@apply text-gray-500;
 	}
 </style>
