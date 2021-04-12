@@ -141,7 +141,6 @@
 
 	.advantage-title {
 		@apply text-lg md:text-xl font-semibold text-gray-800 leading-relaxed;
-		font-family: 'Jost', sans-serif;
 	}
 
 	.advantage-text {

@@ -81,7 +81,6 @@
 	}
 
 	.button {
-		font-family: 'Jost', sans-serif;
 		box-shadow: none;
 		@apply inline-flex items-center;
 		@apply rounded-md bg-white text-gray-700 duration-200 leading-none;

@@ -164,7 +164,6 @@
 		@apply text-lg xl:text-xl;
 		@apply md:mt-2 xl:mt-4;
 		@apply font-bold text-gray-800 leading-relaxed;
-		font-family: 'Jost', sans-serif;
 	}
 
 	.feature-text {

@@ -24,6 +24,9 @@ module.exports = {
 				'1/2': '50%',
 				'3/4': '75%',
 				full: '100%'
+			},
+			fontFamily: {
+				sans: ['Sofia Pro', 'sans-serif']
 			}
 		}
 	},
