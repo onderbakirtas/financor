@@ -1,3 +1,10 @@
+<script lang="ts">
+import waveShape from './images/waves-shape.svg';
+import iphoneFrame from './images/iphone-x-frame.png';
+import iphoneInner from './images/top-screen-6.png';
+
+</script>
+
 <section class="hero-container">
 	<div class="hero-content">
 		<article class="hero-text">
@@ -12,12 +19,12 @@
 			</div>
 		</article>
 		<aside class="hero-phone">
-			<img class="hero-phone-shape" src="../img/iphone-x-frame.png" alt="" />
-			<img class="hero-phone-image" src="../img/top-screen-6.png" alt="some" />
+			<img class="hero-phone-shape" src={iphoneFrame} alt="" />
+			<img class="hero-phone-image" src={iphoneInner} alt="some" />
 		</aside>
 	</div>
 	<div class="hero-shape">
-		<img src="../img/waves-shape.svg" alt="shape" />
+		<img src={waveShape} alt="shape" />
 	</div>
 </section>
 

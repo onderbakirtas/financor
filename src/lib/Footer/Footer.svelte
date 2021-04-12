@@ -1,3 +1,11 @@
+<script>
+	import fbIcon from './images/facebook.png';
+	import twIcon from './images/twitter.png';
+	import tgIcon from './images/telegram.png';
+
+	import walletImg from './images/wallet-a.svg';
+</script>
+
 <footer class="footer-container">
 	<div class="footer">
 		<div class="footer-subscribe">
@@ -10,13 +18,13 @@
 		</div>
 		<div class="footer-social">
 			<button>
-				<img src="../img/facebook.png" alt="facebook button" />
+				<img src={fbIcon} alt="facebook button" />
 			</button>
 			<button>
-				<img src="../img/twitter.png" alt="twitter button" />
+				<img src={twIcon} alt="twitter button" />
 			</button>
 			<button>
-				<img src="../img/telegram.png" alt="telegram button" />
+				<img src={tgIcon} alt="telegram button" />
 			</button>
 		</div>
 	</div>
@@ -25,7 +33,7 @@
 	<div class="footer-meta">
 		<span class="copy">&copy; 2021.</span>
 		<a class="link" href="/">
-			<img src="../img/wallet-a.svg" alt="logo" />
+			<img src={walletImg} alt="logo" />
 		</a>
 		<span class="meta">Helps you to save.</span>
 	</div>
