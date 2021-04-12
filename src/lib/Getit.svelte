@@ -37,28 +37,30 @@
 
 	.getit-body {
 		@apply flex flex-col justify-start items-start flex-shrink-0;
-		@apply px-8 md:px-12 py-14 md:py-20;
-		@apply w-full md:w-3/5;
+		@apply px-6 lg:px-12 py-14 lg:py-20;
+		@apply w-full lg:w-3/5;
 	}
 
 	.getit-title {
 		@apply font-bold text-purple-800;
-		@apply text-3xl md:text-4xl;
+		@apply text-2xl md:text-3xl xl:text-4xl;
 		font-family: 'Jost', sans-serif;
 	}
 
 	.getit-content {
-		@apply text-base md:text-lg;
-		@apply mt-3 text-gray-600 leading-relaxed;
+		@apply text-base lg:text-lg;
+		@apply mt-2 md:mt-3 text-gray-500 leading-relaxed;
 	}
 
 	.getit-buttons {
-		@apply mt-4 inline-flex items-start;
+		@apply mt-6 inline-flex items-start;
 	}
 
 	.button {
-		@apply h-12 px-6 inline-flex items-center bg-gray-900 text-white rounded-lg duration-150;
+		@apply inline-flex items-center bg-gray-900 text-white rounded-lg duration-150;
 		font-family: 'Jost', sans-serif;
+		@apply h-11 md:h-12 xl:h-14;
+		@apply px-5 md:px-6 xl:px-8;
 	}
 
 	.button:hover {
@@ -67,7 +69,7 @@
 
 	.getit-phones {
 		@apply items-end justify-end w-full;
-		@apply hidden md:flex;
+		@apply hidden lg:flex;
 	}
 
 	.getit-phones .phone {

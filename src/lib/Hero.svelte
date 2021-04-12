@@ -25,29 +25,31 @@
 	.hero-container {
 		@apply relative bg-cover bg-top z-10 h-auto;
 		@apply pt-14 md:pt-16;
-		min-height: 800px;
+		@apply pb-12 md:pb-36 xl:pb-48;
 		background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);
 	}
 
 	.hero-shape {
-		@apply -bottom-2 left-0 absolute right-0 z-10;
+		@apply absolute bottom-0 left-0 right-0 z-10;
 	}
 
 	.hero-content {
 		@apply container mx-auto max-w-screen-xl relative z-20;
-		@apply flex flex-col md:flex-row items-center;
+		@apply flex items-center;
+		@apply flex-col md:flex-row;
 		@apply pt-12 md:pt-8;
 		@apply pb-16 md:pb-0;
+		@apply px-4 md:px-6;
 	}
 
 	.hero-text {
 		@apply text-white;
-		@apply w-full md:w-8/12;
-		@apply px-4 md:px-0;
+		@apply w-full md:w-10/12;
+		@apply pr-0 md:pr-8 xl:pr-0;
 	}
 
 	.hero-title {
-		@apply text-3xl md:text-4xl;
+		@apply text-3xl lg:text-4xl;
 		@apply font-bold leading-tight;
 		font-family: 'Playfair Display', serif;
 	}
@@ -55,7 +57,7 @@
 	.hero-p {
 		@apply text-indigo-200;
 		@apply pt-4 md:pt-6;
-		@apply text-lg md:text-xl;
+		@apply text-lg xl:text-xl;
 	}
 
 	.hero-phone {
@@ -69,9 +71,9 @@
 	}
 
 	.hero-phone-image {
-		@apply absolute block top-0 left-3 rounded-3xl pointer-events-none select-none;
-		height: 98%;
-		top: 5px;
+		@apply absolute block left-4 rounded-3xl pointer-events-none select-none;
+		height: 95%;
+		top: 12px;
 	}
 
 	.hero-buttons {
@@ -85,7 +87,7 @@
 		@apply rounded-md bg-white text-gray-700 duration-200 leading-none;
 		@apply md:text-lg;
 		@apply px-5 md:px-6;
-		@apply h-12 md:h-14;
+		@apply h-11 md:h-12 xl:h-14;
 	}
 	.button:hover {
 		@apply bg-indigo-100;

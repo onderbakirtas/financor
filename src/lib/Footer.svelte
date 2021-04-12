@@ -1,27 +1,22 @@
-<script>
-	import Facebook from './Icons/Facebook.svelte';
-	import Telegram from './Icons/Telegram.svelte';
-	import Twitter from './Icons/Twitter.svelte';
-</script>
-
 <footer class="footer-container">
 	<div class="footer">
 		<div class="footer-subscribe">
+			<h6 class="subscribe-title">Poking Service</h6>
 			<div class="subscribe-body">
-				<input type="text" placeholder="Email address..." />
+				<input type="text" placeholder="Your precious email address..." />
 				<button>Get Notified</button>
 			</div>
-			<p class="subscribe-footer">You will be notified, not spammed.</p>
+			<p class="subscribe-footer">You will only be notified, not spammed.</p>
 		</div>
 		<div class="footer-social">
 			<button>
-				<Facebook />
+				<img src="../img/facebook.png" alt="facebook button" />
 			</button>
 			<button>
-				<Twitter />
+				<img src="../img/twitter.png" alt="twitter button" />
 			</button>
 			<button>
-				<Telegram />
+				<img src="../img/telegram.png" alt="telegram button" />
 			</button>
 		</div>
 	</div>
@@ -30,8 +25,7 @@
 	<div class="footer-meta">
 		<span class="copy">&copy; 2021.</span>
 		<a class="link" href="/">
-			<!-- <img src="../img/logo-w.png" alt="logo"> -->
-			<span>Financor</span>
+			<img src="../img/wallet-a.svg" alt="logo" />
 		</a>
 		<span class="meta">Helps you to save.</span>
 	</div>
@@ -53,6 +47,11 @@
 		@apply text-center md:text-left;
 	}
 
+	.subscribe-title {
+		@apply text-white font-bold mb-2;
+		@apply text-base md:text-lg;
+	}
+
 	.subscribe-body {
 		@apply flex justify-start;
 		@apply items-stretch md:items-center;
@@ -60,7 +59,7 @@
 	}
 
 	.subscribe-body input {
-		@apply bg-gray-50 h-12 outline-none p-4 rounded-lg duration-150 inline-block w-72;
+		@apply bg-gray-50 h-12 outline-none p-4 rounded-lg duration-150 inline-block w-72 appearance-none;
 		@apply border-4 border-solid border-gray-50;
 		@apply w-full md:w-72;
 	}
@@ -69,8 +68,9 @@
 	}
 
 	.subscribe-body button {
-		@apply bg-pink-700 text-pink-50 h-12 rounded-lg px-6 font-bold duration-150;
+		@apply bg-pink-700 text-pink-50 h-12 rounded-lg px-6 duration-150;
 		@apply mt-3 md:mt-0 md:ml-2;
+		font-family: 'Jost', sans-serif;
 	}
 
 	.subscribe-body button:hover {
@@ -90,7 +90,11 @@
 	.footer-social button {
 		@apply w-12 h-12 p-4;
 		@apply inline-flex justify-center items-end;
-		@apply bg-gray-800 text-purple-100 rounded-full duration-150;
+		@apply bg-gray-800 rounded-full duration-150;
+	}
+
+	.footer-social button > img {
+		@apply opacity-80 duration-150;
 	}
 
 	.footer-social button + button {
@@ -98,7 +102,11 @@
 	}
 
 	.footer-social button:hover {
-		@apply bg-purple-500 text-white;
+		@apply bg-gray-700;
+	}
+
+	.footer-social button:hover > img {
+		@apply opacity-100;
 	}
 
 	.footer-bottomline {
@@ -117,14 +125,13 @@
 		@apply ml-auto md:ml-0;
 	}
 
-	.link span {
+	/* .link span {
 		@apply inline-block text-2xl font-bold text-white;
 		font-family: 'Jost', sans-serif;
-	}
+	} */
 
-	.meta,
-	.copy {
-		@apply text-gray-300 md:w-40;
+	.link img {
+		@apply inline-block h-10 opacity-90;
 	}
 
 	.meta {
@@ -135,6 +142,11 @@
 		@apply text-right;
 		@apply w-auto;
 		@apply order-2 md:order-1;
-    @apply ml-1 md:ml-0;
+		@apply ml-1 md:ml-0;
+	}
+
+	.meta,
+	.copy {
+		@apply text-gray-300 md:w-40;
 	}
 </style>

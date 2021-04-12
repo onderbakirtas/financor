@@ -62,7 +62,7 @@
 <style lang="postcss">
 	.advantages {
 		@apply container max-w-screen-xl mx-auto;
-		@apply px-4 py-14 md:px-40 md:py-32;
+		@apply py-14 md:py-24 xl:py-32 px-4;
 		--ggs: 1.5;
 	}
 
@@ -83,7 +83,7 @@
 
 	.advantages-header h2 {
 		@apply text-gray-800;
-		@apply text-3xl md:text-4xl;
+		@apply text-3xl md:text-4xl xl:text-5xl;
 		font-family: 'Playfair Display', serif;
 	}
 
@@ -93,22 +93,28 @@
 
 	.advantages-header p {
 		@apply mt-4 md:mt-6;
-		@apply text-lg md:text-xl md:leading-8;
+		@apply text-base md:text-lg xl:text-xl;
 		@apply text-gray-500;
 	}
 
 	.advantages-main {
 		@apply flex;
-		@apply flex-col md:flex-row;
+		@apply flex-col lg:flex-row;
+		@apply items-start lg:items-center;
 	}
 
 	.advantages-image {
-		@apply w-full md:w-3/6;
-		@apply flex justify-center flex-shrink-0 self-center;
+		@apply w-full lg:w-3/6;
+		@apply md:px-16 lg:px-0;
+		@apply flex-shrink-0 flex-grow self-center;
+	}
+
+	.advantages-image > img {
+		@apply w-full h-auto;
 	}
 
 	.advantages-list {
-		@apply md:pl-16 mt-14 md:mt-0;
+		@apply lg:pl-16 mt-14 lg:mt-0;
 	}
 
 	.advantage {
@@ -119,28 +125,28 @@
 	}
 
 	.advantage + .advantage {
-		@apply mt-8;
+		@apply mt-10;
 	}
 
 	.advantage-icon {
 		@apply flex items-center justify-center flex-grow-0 flex-shrink-0;
-		@apply w-24 md:w-28 h-24 md:h-28;
+		@apply w-24 xl:w-28 h-24 xl:h-28;
 		@apply text-blue-50 bg-purple-600 rounded-full;
 	}
 
 	.advantage-body {
 		@apply flex flex-col;
-		@apply pt-2 md:py-2 md:ml-4;
+		@apply pt-2 md:pt-1 md:pb-1 md:ml-4;
 	}
 
 	.advantage-title {
-		@apply text-xl font-semibold text-gray-800 leading-relaxed;
+		@apply text-lg md:text-xl font-semibold text-gray-800 leading-relaxed;
 		font-family: 'Jost', sans-serif;
 	}
 
 	.advantage-text {
-		@apply text-base md:text-lg;
-		@apply mt-0 md:mt-1;
-		@apply text-gray-600;
+		@apply text-base xl:text-lg;
+		@apply mt-1;
+		@apply text-gray-500;
 	}
 </style>
