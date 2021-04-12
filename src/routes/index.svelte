@@ -1,10 +1,10 @@
 <script lang="ts">
 	import Navbar from '$lib/Navbar.svelte';
-	import Hero from '$lib/Hero.svelte';
-	import Features from '$lib/Features.svelte';
-	import Advantages from '$lib/Advantages.svelte';
-	import Getit from '$lib/Getit.svelte';
-	import Footer from '$lib/Footer.svelte';
+	import Hero from '$lib/Hero/Hero.svelte';
+	import Features from '$lib/Features/Features.svelte';
+	import Advantages from '$lib/Advantages/Advantages.svelte';
+	import Getit from '$lib/Getit/Getit.svelte';
+	import Footer from '$lib/Footer/Footer.svelte';
 
 	import '../global.css';
 </script>

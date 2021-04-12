@@ -1,12 +1,15 @@
 <script lang="ts">
+	import logoWhite from './images/wallet-a.svg';
+	import logoColor from './images/wallet-c.svg';
+
 	export let inverted = true;
 
-	$: logoPath = inverted ? '../img/wallet-c.svg' : '../img/wallet-a.svg';
+	$: logoPath = inverted ? logoColor : logoWhite;
 </script>
 
 <a class="logo" href="/">
 	<img class="logo-img" src={logoPath} alt="Logo" />
-	<img class="logo-img-m" src="../img/wallet-c.svg" alt="Logo" />
+	<img class="logo-img-m" src={logoColor} alt="Logo" />
 	<span class="logo-txt">Financor</span>
 </a>
 
