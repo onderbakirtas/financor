@@ -1,3 +1,7 @@
+<script lang="ts">
+import featureImage from './images/feature-image.png'
+</script>
+
 <div class="features-container" id="how">
 	<section class="features">
 		<header class="features-header">
@@ -26,7 +30,7 @@
 				</div>
 			</div>
 			<div class="center">
-				<img src="../img/feature-image.png" alt="feature" />
+				<img src={featureImage} alt="feature" />
 			</div>
 			<div class="right">
 				<div class="feature">

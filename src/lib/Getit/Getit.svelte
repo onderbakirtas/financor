@@ -1,8 +1,5 @@
-<script>
-	import Apple from './Icons/Apple.svelte';
-	import Dollar from './Icons/Dollar.svelte';
-	import PlayStore from './Icons/PlayStore.svelte';
-	import Windows from './Icons/Windows.svelte';
+<script lang="ts">
+	import handPhone from './images/download-right2.png';
 </script>
 
 <div class="getit-container" id="getit">
@@ -21,7 +18,7 @@
 			</div>
 		</main>
 		<aside class="getit-phones">
-			<img class="phone" src="../img/download-right2.png" alt="download" />
+			<img class="phone" src={handPhone} alt="download" />
 		</aside>
 	</section>
 </div>

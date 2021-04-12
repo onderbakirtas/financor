@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Logo from './Logo.svelte';
+	import Logo from './Logo/Logo.svelte';
 	import NavbarCta from './NavbarCta.svelte';
 	import NavbarMenu from './NavbarMenu.svelte';
 

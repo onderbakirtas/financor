@@ -1,7 +1,9 @@
-<script>
-	import Dollar from './Icons/Dollar.svelte';
-	import FileDocument from './Icons/FileDocument.svelte';
-	import Trophy from './Icons/Trophy.svelte';
+<script lang="ts">
+	import Dollar from '../Icons/Dollar.svelte';
+	import FileDocument from '../Icons/FileDocument.svelte';
+	import Trophy from '../Icons/Trophy.svelte';
+
+	import advantageVisual from './images/about.png';
 </script>
 
 <div class="advantages-container" id="advantages">
@@ -15,7 +17,7 @@
 		</header>
 		<main class="advantages-main">
 			<aside class="advantages-image">
-				<img src="../img/about.png" alt="advantage" />
+				<img src={advantageVisual} alt="advantage" />
 			</aside>
 			<section class="advantages-list">
 				<div class="advantage">
