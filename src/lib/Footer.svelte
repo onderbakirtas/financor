@@ -25,7 +25,7 @@
 	<div class="footer-meta">
 		<span class="copy">&copy; 2021.</span>
 		<a class="link" href="/">
-			<span>Financor</span>
+			<img src="../img/wallet-a.svg" alt="logo" />
 		</a>
 		<span class="meta">Helps you to save.</span>
 	</div>
@@ -125,9 +125,13 @@
 		@apply ml-auto md:ml-0;
 	}
 
-	.link span {
+	/* .link span {
 		@apply inline-block text-2xl font-bold text-white;
 		font-family: 'Jost', sans-serif;
+	} */
+
+	.link img {
+		@apply inline-block h-10 opacity-90;
 	}
 
 	.meta {
