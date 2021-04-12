@@ -4,7 +4,7 @@
 	.navbar-cta {
     @apply h-9 px-6 md:h-10;
 		@apply inline-flex rounded-lg items-center duration-200 opacity-100;
-		@apply text-white md:text-purple-700 tracking-wide text-sm md:text-base;
+		@apply text-white md:text-purple-700 tracking-wide text-sm md:text-base font-sans;
 		@apply order-1 md:order-2;
     @apply bg-purple-700 md:bg-white;
 	}

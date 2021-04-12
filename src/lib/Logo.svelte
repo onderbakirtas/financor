@@ -27,7 +27,6 @@
 		@apply text-gray-700 md:text-white;
 		@apply ml-1 md:ml-2 font-bold;
 		@apply text-xl md:text-2xl;
-		font-family: 'Jost', sans-serif;
 		font-weight: 700;
 	}
 </style>

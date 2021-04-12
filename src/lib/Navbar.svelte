@@ -25,7 +25,6 @@
 		@apply fixed w-full z-40 duration-150;
 		@apply border-b border-transparent;
 		@apply bg-white bg-opacity-90 md:bg-transparent md:bg-opacity-100;
-		font-family: 'Jost', sans-serif;
 	}
 
 	.navbar.scrolled {

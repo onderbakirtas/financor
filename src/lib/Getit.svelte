@@ -44,7 +44,6 @@
 	.getit-title {
 		@apply font-bold text-purple-800;
 		@apply text-2xl md:text-3xl xl:text-4xl;
-		font-family: 'Jost', sans-serif;
 	}
 
 	.getit-content {
@@ -58,7 +57,6 @@
 
 	.button {
 		@apply inline-flex items-center bg-gray-900 text-white rounded-lg duration-150;
-		font-family: 'Jost', sans-serif;
 		@apply h-11 md:h-12 xl:h-14;
 		@apply px-5 md:px-6 xl:px-8;
 	}

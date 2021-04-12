@@ -70,7 +70,6 @@
 	.subscribe-body button {
 		@apply bg-pink-700 text-pink-50 h-12 rounded-lg px-6 duration-150;
 		@apply mt-3 md:mt-0 md:ml-2;
-		font-family: 'Jost', sans-serif;
 	}
 
 	.subscribe-body button:hover {
@@ -127,7 +126,6 @@
 
 	/* .link span {
 		@apply inline-block text-2xl font-bold text-white;
-		font-family: 'Jost', sans-serif;
 	} */
 
 	.link img {
