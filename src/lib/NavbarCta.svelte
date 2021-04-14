@@ -1,4 +1,4 @@
-<a href="/app" class="navbar-cta">Start Saving</a>
+<a href="/auth/login" class="navbar-cta">Start Saving</a>
 
 <style lang="postcss">
 	.navbar-cta {
