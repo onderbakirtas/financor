@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"axios": "^0.21.1",
 		"css.gg": "^2.0.0"
 	}
 }

@@ -1,4 +1,4 @@
-<a href="/auth/login" class="navbar-cta">Start Saving</a>
+<a href="http://185.103.199.195:4433/self-service/login/browser" class="navbar-cta">Start Saving</a>
 
 <style lang="postcss">
 	.navbar-cta {

@@ -31,6 +31,9 @@ module.exports = {
 		vite: {
 			ssr: {
 				noExternal: Object.keys(pkg.dependencies || {})
+			},
+			server: {
+				https: true
 			}
 		}
 	}
