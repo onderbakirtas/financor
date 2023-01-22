@@ -1,2 +1,2 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>financor.app</h1>
+<p>An expense tracker app to not generate more expenses than you need, your precious <strong>$$$</strong> is worthy.</p>
