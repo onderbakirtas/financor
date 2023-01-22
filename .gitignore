@@ -1,6 +1,0 @@
-.DS_Store
-node_modules
-/.svelte
-/.vercel_build_output
-/build
-/functions

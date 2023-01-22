@@ -1,3 +1,0 @@
-hi app layout
-
-<slot />
